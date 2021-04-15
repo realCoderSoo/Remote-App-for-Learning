@@ -1,0 +1,29 @@
+@import "src/shared/app-commons.scss";
+
+.center {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  margin-top: 101px;
+}
+
+h1 {
+  font-weight: $black;
+  font-size: 150px;
+  padding-bottom: 2%;
+  color: $black;
+}
+
+h2 {
+  font-weight: $black;
+}
+
+a {
+  color: $yellow;
+}
+
+i {
+  font-size: 300px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}

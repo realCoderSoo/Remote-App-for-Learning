@@ -1,0 +1,23 @@
+{
+    "userProfiles.guardians": [
+    {
+        "studentId": "000001",
+        "guardianId": "1",
+        "guardianProfile": {
+             "id":"1",
+             "name":{
+                "givenName": "Martin",
+                "familyName": "Mott",
+                "fullName": "Martin Mott"
+             },
+             "emailAddress:":"Martin@gmail.com",
+             "photoUrl":"url.ca",
+             "permissions":[
+                 {}
+             ],
+             "verifiedTeacher":false
+        },
+        "invitedEmailAddress": "Martin@gmail.com"
+    }
+]
+}

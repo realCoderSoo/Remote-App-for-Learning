@@ -1,0 +1,43 @@
+@import 'src/shared/fonts/_fonts.scss';
+
+// primary font
+$primary-font: 'Catamaran';
+
+// font weights
+$medium: 500;
+$semiBold: 600;
+$thin: 100;
+$black: 900;
+$extraLight: 200;
+$regular: 400;
+$light: 300;
+$extraBold: 800;
+$bold: 700;
+
+// font sizes
+$font-xs:12px;
+$font-sm: 14px;
+$primary-fs: 16px;
+$font-md: 18px;
+$font-lg: 30px;
+$font-xlg: 40px;
+$font-xxlg: 50px;
+
+// application colours
+$yellow: #ecaf44;
+$lighter-red: #f5655f;
+$light-red: #be2f29;
+$dark-red: #6b0f0b;
+$blue: #1a2c42;
+$darker-blue: #0c1724;
+$darkest-blue: #101924;
+$green: #0c1115;
+$white: #FFFFFF;
+
+// light theme colours
+$bg-theme-light: $white;
+$color-theme-light: $darkest-blue;
+
+// dark theme colours
+$bg-theme-dark: $light-red;
+$color-theme-dark: $white;

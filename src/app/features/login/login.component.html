@@ -1,0 +1,32 @@
+
+        <div class="modal-login">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>				
+                    <h4 class="modal-title">Login</h4>	
+                </div>
+                <div class="modal-body">
+                    <form action="/examples/actions/confirmation.php" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="username" placeholder="Username" required="required">		
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="Password" required="required">	
+                        </div>  
+                        <div class="teacherStudentQuestion">
+                            Are you a Teacher, Student, or Parent?
+                        </div>  
+                        <div class="teacherStudentButton">
+                            <button (click)="setRoute('Teacher')">Teacher</button>
+                            <button (click)="setRoute('Student')">Student</button>
+                            <button (click)="setRoute('Parent')">Parent</button>
+                        </div>
+                        <div class="form-group">
+                            <button routerLink="/courses" type="submit" class="btn btn-primary btn-lg btn-block login-btn">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>  

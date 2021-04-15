@@ -1,0 +1,40 @@
+{
+    "courses.teachers":[
+        {
+            "courseId":"ENG4453",
+            "userId":"000070",
+            "profile": {
+                "id":"000070",
+                "name": {
+                    "givenName":"Sam",
+                    "familyName":"Johnson",
+                    "fullName":"Sam Johnson"
+                },
+                "emailAddress": "samjohnson2@hotmail.com",
+                "photoUrl":"url.net",
+                "permissions":[
+                    {}
+                ],
+                "verifiedTeacher":true
+            }
+        },
+        {
+            "courseId":"RAR1234",
+            "userId":"000080",
+            "profile": {
+                "id":"000080",
+                "name": {
+                    "givenName":"Kyle",
+                    "familyName":"Win",
+                    "fullName":"Kyle Win"
+                },
+                "emailAddress": "winwin@ed.com",
+                "photoUrl":"url.edu",
+                "permissions":[
+                    {}
+                ],
+                "verifiedTeacher":true
+            }
+        }
+    ]
+}

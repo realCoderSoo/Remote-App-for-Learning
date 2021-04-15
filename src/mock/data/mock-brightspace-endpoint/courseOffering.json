@@ -1,0 +1,50 @@
+{
+  "Course.CourseOffering": [
+    {
+      "Identifier": "01",
+      "name": "Beginner Korean",
+      "code": "01",
+      "IsActive": true,
+      "path": "",
+      "StartDate": "2021-01-01",
+      "EndDate": "2021-05-01",
+      "CourseTemplate": {
+        "identifier": "01",
+        "name": "KOR0001"
+      },
+      "Semester": {
+        "identifier": "01",
+        "name": "Fall"
+      },
+      "Department": {
+        "identifier": "01",
+        "name": "Korean"
+      },
+      "Description": "Bacon ipsum dolor amet meatloaf leberkas tail tenderloin prosciutto tri-tip ball tip tongue ground round.",
+      "CanSelfRegister": true
+    },
+    {
+      "Identifier": "02",
+      "name": "Beginner French",
+      "code": "02",
+      "IsActive": false,
+      "path": "",
+      "StartDate": "2021-01-01",
+      "EndDate": "2021-05-01",
+      "CourseTemplate": {
+        "identifier": "02",
+        "name": "FRE0001"
+      },
+      "Semester": {
+        "identifier": "02",
+        "name": "Winter"
+      },
+      "Department": {
+        "identifier": "01",
+        "name": "French"
+      },
+      "Description": "Bacon ipsum dolor amet meatloaf leberkas tail tenderloin prosciutto tri-tip ball tip tongue ground round.",
+      "CanSelfRegister": false
+    }
+  ]
+}

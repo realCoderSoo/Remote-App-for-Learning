@@ -1,0 +1,115 @@
+@import "src/shared/app-commons.scss";
+
+.modal-login {
+  color: $black;
+  width: 600px;
+  margin: 80px auto 0;
+  padding-top: 5%;
+  font-family: $primary-font;
+  font-size: $font-lg;
+  height:100vh;
+}
+.modal-content {
+  padding: 20px;
+  border: none;
+}
+
+.modal-login .modal-header {
+  border-bottom: none;
+  position: relative;
+  justify-content: center;
+}
+.modal-login h4 {
+  text-align: center;
+  font-size: $font-xlg;
+  margin: 30px 0 -15px;
+  font-family: $primary-font;
+  padding-top: 5%;
+}
+.modal-login .form-control:focus {
+  border-color: #70c5c0;
+}
+.modal-login .form-control,
+.modal-login .btn {
+  min-height: 40px;
+  font-family: $primary-font;
+  font-size: 23px;
+}
+
+.modal-login .avatar {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -70px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  z-index: 9;
+  background: $light-red;
+  padding: 15px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  color: $light-red;
+}
+.modal-login .avatar i {
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 100px;
+  padding-left: 3%;
+  padding-top: 7px;
+}
+.modal-login .btn {
+  color: #FFFFFF;
+  background: $light-red;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  border: none;
+  font-family: $primary-font;
+  font-weight: $bold;
+  font-size: $font-lg;
+  margin-top: 5%;
+}
+
+.modal-login .btn:hover,
+.modal-login .btn:focus {
+  background: $dark-red;
+  outline: none;
+}
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
+.teacherStudentQuestion {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.teacherStudentButton {
+  text-align: center;
+  margin-top: 5%;
+}
+.teacherStudentButton button {
+  color: #fff;
+  background: $light-red;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  border: none;
+  font-family: $primary-font;
+  font-weight: $medium;
+  font-size: 28px;
+  margin: 2%;
+}
+
+.teacherStudentButton button:hover,
+button:focus {
+  background: $dark-red;
+  outline: none;
+}
+
+@media screen and (max-width: 582px) {
+  .modal-login {
+    width: 80%;
+  }
+}

@@ -1,0 +1,382 @@
+{
+    "courses.students" : [
+        {
+        "courseId":"ENG4453",
+        "userId":"000001",
+        "profile": {
+            "id":"000001",
+            "name": {
+                "givenName":"Alexa Jeremy",
+                "familyName":"Benson",
+                "fullName":"Alexa Jeremy Benson"
+            },
+            "emailAddress": "alexa57332@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"ENG4453",
+        "userId":"000010",
+        "profile": {
+            "id":"000010",
+            "name": {
+                "givenName":"Muhammad",
+                "familyName":"Theano",
+                "fullName":"Muhammad Theano"
+            },
+            "emailAddress": "muth@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"BIO5572",
+        "userId":"000010",
+        "profile": {
+            "id":"000010",
+            "name": {
+                "givenName":"Muhammad",
+                "familyName":"Theano",
+                "fullName":"Muhammad Theano"
+            },
+            "emailAddress": "muth@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"ENG4453",
+        "userId":"000011",
+        "profile": {
+            "id":"000011",
+            "name": {
+                "givenName":"Rosmarie",
+                "familyName":"Gjurd",
+                "fullName":"Rosmarie Gjurd"
+            },
+            "emailAddress": "gjurd@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"ENG4453",
+        "userId":"000012",
+        "profile": {
+            "id":"000012",
+            "name": {
+                "givenName":"Chloe",
+                "familyName":"Stiina",
+                "fullName":"Chloe Stiina"
+            },
+            "emailAddress": "stinnch@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"ENG4453",
+        "userId":"000013",
+        "profile": {
+            "id":"000013",
+            "name": {
+                "givenName":"Olavi",
+                "familyName":"Biserka",
+                "fullName":"Olavi Biserka"
+            },
+            "emailAddress": "biserka@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"ENG4453",
+        "userId":"000014",
+        "profile": {
+            "id":"000014",
+            "name": {
+                "givenName":"Filip",
+                "familyName":"Kolos",
+                "fullName":"Filip Kolos"
+            },
+            "emailAddress": "kolos@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"ENG4453",
+        "userId":"000015",
+        "profile": {
+            "id":"000015",
+            "name": {
+                "givenName":"Konrad",
+                "familyName":"Maram",
+                "fullName":"Konrad Maram"
+            },
+            "emailAddress": "maram@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"MAT0356",
+        "userId":"000001",
+        "profile": {
+            "id":"000001",
+            "name": {
+                "givenName":"Alexa Jeremy",
+                "familyName":"Benson",
+                "fullName":"Alexa Jeremy Benson"
+            },
+            "emailAddress": "alexa57332@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"MAT0356",
+        "userId":"000005",
+        "profile": {
+            "id":"000005",
+            "name": {
+                "givenName":"Marta",
+                "familyName":"Thietmar",
+                "fullName":"Marta Thietmar"
+            },
+            "emailAddress": "themmi@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"MAT0356",
+        "userId":"000006",
+        "profile": {
+            "id":"000006",
+            "name": {
+                "givenName":"Rajesh",
+                "familyName":"Iris",
+                "fullName":"Rajesh Iris"
+            },
+            "emailAddress": "risi@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"MAT0356",
+        "userId":"000007",
+        "profile": {
+            "id":"000007",
+            "name": {
+                "givenName":"Mariano",
+                "familyName":"Kārlis",
+                "fullName":"Mariano Kārlis"
+            },
+            "emailAddress": "karmar@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"MAT0356",
+        "userId":"000008",
+        "profile": {
+            "id":"000008",
+            "name": {
+                "givenName":"Vít",
+                "familyName":"Ingunn",
+                "fullName":"Vít Ingunn"
+            },
+            "emailAddress": "ingunn@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"BIO5572",
+        "userId":"000001",
+        "profile": {
+            "id":"000001",
+            "name": {
+                "givenName":"Alexa Jeremy",
+                "familyName":"Benson",
+                "fullName":"Alexa Jeremy Benson"
+            },
+            "emailAddress": "alexa57332@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"PHY0235",
+        "userId":"000001",
+        "profile": {
+            "id":"000001",
+            "name": {
+                "givenName":"Alexa Jeremy",
+                "familyName":"Benson",
+                "fullName":"Alexa Jeremy Benson"
+            },
+            "emailAddress": "alexa57332@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"FRE4632",
+        "userId":"000001",
+        "profile": {
+            "id":"000001",
+            "name": {
+                "givenName":"Alexa Jeremy",
+                "familyName":"Benson",
+                "fullName":"Alexa Jeremy Benson"
+            },
+            "emailAddress": "alexa57332@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"JAP1245",
+        "userId":"000002",
+        "profile": {
+            "id":"000002",
+            "name": {
+                "givenName":"Harry",
+                "familyName":"Potter",
+                "fullName":"Harry Potter"
+            },
+            "emailAddress": "harrypot@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":"false"
+        }
+    },
+    {
+        "courseId":"JAP1245",
+        "userId":"000003",
+        "profile": {
+            "id":"000003",
+            "name": {
+                "givenName":"Sam",
+                "familyName":"Samerson",
+                "fullName":"Sam Samerson"
+            },
+            "emailAddress": "sammy@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":"false"
+        }
+    },
+    {
+        "courseId":"JAP1245",
+        "userId":"000004",
+        "profile": {
+            "id":"000004",
+            "name": {
+                "givenName":"Augusteen",
+                "familyName":"Wald",
+                "fullName":"Augusteen Wald"
+            },
+            "emailAddress": "walden@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":"false"
+        }
+    },
+    {
+        "courseId":"NET2239",
+        "userId":"001000",
+        "profile": {
+            "id":"001000",
+            "name": {
+                "givenName":"Kirsten",
+                "familyName":"Carter",
+                "fullName":"Kirsten Carter"
+            },
+            "emailAddress": "ksh@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    },
+    {
+        "courseId":"CYS2240",
+        "userId":"001001",
+        "profile": {
+            "id":"001001",
+            "name": {
+                "givenName":"Henrietta",
+                "familyName":"Ollen",
+                "fullName":"Henrietta Ollen"
+            },
+            "emailAddress": "henriol@gmail.com",
+            "photoUrl":"url.com",
+            "permissions":[
+                {}
+            ],
+            "verifiedTeacher":false
+        }
+    }
+]
+}

@@ -1,0 +1,26 @@
+{
+  "Topic": {
+    "TopicType": "1",
+    "Url": "",
+    "StartDate": "2021-01-01",
+    "EndDate": "2021-05-01",
+    "DueDate": "2021-05-01",
+    "IsHidden": false,
+    "IsLocked": false,
+    "OpenAsExternalResource": true,
+    "Id": "01",
+    "Title": "Lesson 1",
+    "ShortTitle": "l1",
+    "Type": 1,
+    "Description": "Bacon ipsum dolor amet meatloaf leberkas tail tenderloin prosciutto tri-tip ball tip tongue ground round.",
+    "ParentModuleId": "01",
+    "ActivityId": "01",
+    "Duration": "1",
+    "IsExempt": false,
+    "ToolId": "01",
+    "ToolItemId": "01",
+    "ActivityType": "1",
+    "GradeItemId": "01",
+    "LastModifiedDate": "2021-01-01"
+  }
+}

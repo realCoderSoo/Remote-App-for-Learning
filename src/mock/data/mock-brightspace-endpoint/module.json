@@ -1,0 +1,18 @@
+{
+  "module": {
+    "Structure": [],
+    "ModuleStartDate": "2021-01-01",
+    "ModuleEndDate": "2021-05-01",
+    "ModuleDueDate": "2021-05-01",
+    "IsHidden": false,
+    "IsLocked": false,
+    "Id": "01",
+    "Title": "Week 1",
+    "ShortTitle": "wk1",
+    "Type": 0,
+    "Description": "Week 1 module",
+    "ParentModuleId": "01",
+    "Duration": "1",
+    "LastModifiedDate": "2021-05-01"
+  }
+}

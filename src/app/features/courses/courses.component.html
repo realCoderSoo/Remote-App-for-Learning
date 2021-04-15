@@ -1,0 +1,35 @@
+<div class="center">
+  <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 yourCourses" [ngStyle]="setHeaderTheme()">
+      YOUR COURSES
+    </h1>
+  </div>
+  <div *ngIf="routingPage == 'Student'">
+    <div class="buttonGroup"
+    *ngFor="let course of coursesAndIconsArray; index as i">
+    <div class="buttonContainer">
+      <div class="buttonContainerBackground" [ngStyle]="setButtonBackgroundTheme()">
+        <a [routerLink]="['/analytics', course.courseCode, studentNumber]"
+         class="btn effect" [ngStyle]="setButtonTheme()">
+         <i [ngClass]='course.iconName'></i> 
+         <span>{{course.courseCode}}&nbsp;&nbsp;&nbsp;{{course.name}}</span></a>
+      <br />
+    </div>
+    </div>
+    </div>
+  </div>
+  <div *ngIf="routingPage == 'Teacher'">
+    <div class="buttonGroup"
+    *ngFor="let course of coursesAndIconsArray; index as i">
+    <div class="buttonContainer">
+      <div class="buttonContainerBackground" [ngStyle]="setButtonBackgroundTheme()">
+        <a [routerLink]="['/studentlist', course.courseCode]"
+         class="btn effect" [ngStyle]="setButtonTheme()">
+         <i [ngClass]='course.iconName'></i> 
+         <span>{{course.courseCode}}&nbsp;&nbsp;&nbsp;{{course.name}}</span></a>
+      <br />
+    </div>
+    </div>
+    </div>
+  </div>
+</div>

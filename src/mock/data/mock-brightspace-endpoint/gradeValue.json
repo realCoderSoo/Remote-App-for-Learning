@@ -1,0 +1,32 @@
+{
+  "Grade.GradeValue": [
+    {
+      "UserId": "123",
+      "OrgUnitId": "01",
+      "DisplayedGrade": 0.6,
+      "GradeObjectIdentifier": "KOR0001",
+      "GradeObjectName": "",
+      "GradeObjectType": "",
+      "GradeObjectTypeName": "",
+      "Comments": "",
+      "PrivateComments": "",
+      "LastModified": "2021-04-01",
+      "LastModifiedBy": "Teacher",
+      "ReleasedDate": "2021-04-20"
+    },
+    {
+      "UserId": "123",
+      "OrgUnitId": "01",
+      "DisplayedGrade": 0.6,
+      "GradeObjectIdentifier": "FRE0001",
+      "GradeObjectName": "",
+      "GradeObjectType": "",
+      "GradeObjectTypeName": "",
+      "Comments": "",
+      "PrivateComments": "",
+      "LastModified": "2021-04-01",
+      "LastModifiedBy": "Teacher",
+      "ReleasedDate": "2021-04-20"
+    }
+  ]
+}

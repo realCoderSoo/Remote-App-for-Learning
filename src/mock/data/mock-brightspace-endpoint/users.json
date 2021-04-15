@@ -1,0 +1,40 @@
+{
+  "User.UserData": [
+    {
+      "orgDefinedId": "01",
+      "userId": "123",
+      "firstName": "Muhammad",
+      "middleName": null,
+      "lastName": "Theano",
+      "userName": "mTheano",
+      "externalEmail": "muth@gmail.com",
+      "roleId": "01",
+      "isActive": true,
+      "sendCreationEmail": true
+    },
+    {
+      "orgDefinedId": "01",
+      "userId": "11",
+      "firstName": "Martin",
+      "middleName": null,
+      "lastName": "Mott",
+      "userName": "mMott",
+      "externalEmail": "Martin@gmail.com",
+      "roleId": "02",
+      "isActive": true,
+      "sendCreationEmail": true
+    },
+    {
+      "orgDefinedId": "01",
+      "userId": "33",
+      "firstName": "Kyle",
+      "middleName": null,
+      "lastName": "Win",
+      "userName": "kWin",
+      "externalEmail": "winwin@ed.com",
+      "roleId": "03",
+      "isActive": true,
+      "sendCreationEmail": true
+    }
+  ]
+}

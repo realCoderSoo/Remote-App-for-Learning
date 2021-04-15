@@ -1,0 +1,13 @@
+{
+    "observers": [
+    {
+        "observee": {
+            "unique_id":"000444",
+            "password":"passcon1",
+            "access_token":"con1",
+            "pairing_code":"con1",
+            "root_account_id":"000042"
+        }
+    }
+]
+}

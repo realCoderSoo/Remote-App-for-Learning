@@ -1,0 +1,16 @@
+{
+  "Access.UserAccess": [
+    {
+      "UserId": "01",
+      "HasAccess": true
+    },
+    {
+      "UserId": "02",
+      "HasAccess": true
+    },
+    {
+      "UserId": "03",
+      "HasAccess": true
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "User.Role": [
+    {
+      "Identifier": "01",
+      "DisplayName": "student",
+      "Code": "01",
+      "Description": "student",
+      "RoleAlias": "st",
+      "IsCascading": false,
+      "AccessFutureCourses": true,
+      "AccessInactiveCourses": true,
+      "AccessPastCourses": true,
+      "ShowInGrades": true,
+      "ShowInUserProgress": true,
+      "InClassList": true
+    },
+    {
+      "Identifier": "02",
+      "DisplayName": "parent",
+      "Code": "02",
+      "Description": "parent",
+      "RoleAlias": "pt",
+      "IsCascading": false,
+      "AccessFutureCourses": true,
+      "AccessInactiveCourses": true,
+      "AccessPastCourses": true,
+      "ShowInGrades": true,
+      "ShowInUserProgress": true,
+      "InClassList": true
+    },
+    {
+      "Identifier": "03",
+      "DisplayName": "instructor",
+      "Code": "02",
+      "Description": "instructor",
+      "RoleAlias": "inst",
+      "IsCascading": false,
+      "AccessFutureCourses": true,
+      "AccessInactiveCourses": true,
+      "AccessPastCourses": true,
+      "ShowInGrades": true,
+      "ShowInUserProgress": true,
+      "InClassList": true
+    }
+  ]
+}

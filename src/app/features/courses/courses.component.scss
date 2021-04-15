@@ -1,0 +1,197 @@
+@import "src/shared/app-commons.scss";
+
+.center {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  margin-top: 101px;
+  height:100vh;
+}
+
+h1 {
+    font-family: $primary-font;
+    font-size: $font-xlg;
+    font-weight: $regular;
+    color: grey;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.buttonGroup {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.buttonContainer {
+  width: 100%;
+  padding-bottom: 8%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.buttonContainerBackground {
+  margin: 0 auto;
+  line-height: 0%;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: $primary-font;
+  font-size: $font-lg;
+  font-weight: $regular;
+  max-width: 100%;
+  line-height: 520%;
+  display: flex;
+}
+
+i {
+  align-self: center;
+  color: #FFFFFF;
+  font-size: 60px;
+  margin-right: 3%;
+  margin-left: 1%;
+  padding: 30px;
+  width: 150px;
+  background-color: $light-red;
+  text-shadow: 1px 1px 1px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.effect {
+  color: #000;
+  border: solid 1px #C1C3D1;
+  position: relative;
+  overflow: hidden;
+}
+
+.effect::before,
+.effect span{
+    margin: 0 auto;
+}
+
+.buttonGroup:hover .btn {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1013px) {
+  .btn {
+    font-size: 24px;
+  }
+
+  .buttonGroup {
+    width: 100%;
+  }
+
+  i {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .btn {
+    font-size: 19px;
+  }
+
+  .buttonContainer {
+    padding-bottom: 5%;
+    width: 70%;
+  }
+
+  .buttonContainerBackground {
+    margin: 0 auto;
+    line-height: 0%;    
+  }
+
+  .buttonGroup {
+    width: 100%;
+    margin: auto;
+    float: center;
+    text-align: center;
+  }
+
+  .btn i {
+    font-size: 35px;
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .btn {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .btn i {
+    font-size: 16px;
+    padding: 10px;
+    width: 50px;
+  }
+  .buttonContainer {
+    padding-bottom: 5%;
+    text-align: center;
+    align-content: center;
+    float: center;
+  }
+
+  .yourCourses {
+    font-size: 26px;
+  }
+
+  .buttonGroup {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    float: center;
+  }
+}
+
+@media screen and (max-width: 553px) {
+  .btn {
+    font-size: 13px;
+    width: 119%;
+  }
+
+  .btn i {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .buttonContainer {
+    padding-bottom: 5%;
+  }
+
+  .yourCourses {
+    font-size: 22px;
+  }
+
+  .buttonGroup {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .btn {
+    width: 134%;
+  }
+
+  i {
+    padding: 10px;
+  }
+
+  .yourCourses {
+    font-size: 20px;
+    margin-left: 12%;
+  }
+
+  .buttonContainer {
+    padding-bottom: 5%;
+  }
+
+  .buttonGroup {
+    width: 100%;
+  }
+}

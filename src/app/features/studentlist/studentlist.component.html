@@ -1,0 +1,77 @@
+<div *ngIf="routingPage == 'Teacher'">
+  <div class="center">
+    <div class="nodata" *ngIf="studentGradesArray.length === 0">
+      <div [ngStyle]="setTheme()">
+        <i class="fas fa-search"></i>
+        <h1>WE LOOKED FOR YOUR STUDENTS... <br />BUT WE COULDN'T FIND THEM</h1>
+      </div>
+    </div>
+    <div [ngClass]="studentGradesArray.length > 0 ? 'visible' : 'hidden'">
+      <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="table-title" [ngStyle]="setTheme()">
+          {{ courseCode }} STUDENT LIST
+        </h1>
+      </div>
+      <table class="table-fill" [ngStyle]="setTheme()" mdbTable id="sortable">
+        <thead>
+          <tr
+            ngFor="let item of items | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize"
+          >
+            <th
+              [mdbTableSort]="studentGradesArray"
+              sortBy="studentNumber"
+              class="col-studentNumber"
+            >
+              STUDENT NUMBER <mdb-icon fas icon="sort"></mdb-icon>
+            </th>
+            <th
+              [mdbTableSort]="studentGradesArray"
+              sortBy="studentFirstName"
+              class="col-studentName"
+            >
+              FULL NAME <mdb-icon fas icon="sort"></mdb-icon>
+            </th>
+            <th
+              [mdbTableSort]="studentGradesArray"
+              sortBy="studentGrade"
+              class="col-studentGrade"
+            >
+              CURRENT GRADE <mdb-icon fas icon="sort"></mdb-icon>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            [ngStyle]="setTableTheme()"
+            *ngFor="let student of studentGradesArray; index as i"
+            [routerLink]="['/analytics', courseCode, student.studentNumber]"
+            class="analyticLink"
+          >
+            <td scope="row" id="studentNum">{{ student.studentNumber }}</td>
+            <!-- <td>{{ student.studentNumber }}</td> -->
+            <td class="td-studentGrade-wrapper">
+              {{ student.studentFirstName }} {{ student.studentLastName }}
+            </td>
+            <td>
+              <div
+                class="td-studentGrade"
+                [ngStyle]="setGradeColor(student.studentGrade)"
+              >
+                {{ student.studentGrade }}
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <ngb-pagination
+        [collectionSize]="items.length"
+        [(page)]="page"
+        [maxSize]="5"
+        [rotate]="true"
+        [ellipses]="false"
+        [boundaryLinks]="true"
+      ></ngb-pagination>
+    </div>
+  </div>
+</div>

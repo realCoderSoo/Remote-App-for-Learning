@@ -1,0 +1,10 @@
+{
+  "User.ParentalRelationshipMapping": {
+    "userMappings": [
+      {
+        "parentId": "11",
+        "childId": "123"
+      }
+    ]
+  }
+}

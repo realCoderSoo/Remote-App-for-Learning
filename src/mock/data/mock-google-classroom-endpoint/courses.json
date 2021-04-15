@@ -1,0 +1,58 @@
+{
+    "courses":[
+        {
+            "id":"ENG4453",
+            "name":"English",
+            "section":"01",
+            "courseState" : {
+                "enum": ["ACTIVE"]
+            },
+            "guardiansEnabled":true
+        },
+        {
+            "id":"MAT0356",
+            "name":"Advanced Mathematics",
+            "section":"15",
+            "courseState" : {
+                "enum": ["ACTIVE"]
+            },
+            "guardiansEnabled":true
+        },
+        {
+            "id":"BIO5572",
+            "name":"Biology",
+            "section":"10",
+            "courseState" : {
+                "enum": ["ACTIVE"]
+            },
+            "guardiansEnabled":true
+        },
+        {
+            "id":"PHY0235",
+            "name":"Physical Education",
+            "section":"2",
+            "courseState" : {
+                "enum": ["ACTIVE"]
+            },
+            "guardiansEnabled":true
+        },
+        {
+            "id":"FRE4632",
+            "name":"Intermediate French",
+            "section":"26",
+            "courseState" : {
+                "enum": ["ACTIVE"]
+            },
+            "guardiansEnabled":true
+        },
+        {
+            "id":"JAP1245",
+            "name":"Beginner Japanese",
+            "section":"04",
+            "courseState" : {
+                "enum": ["ACTIVE"]
+            },
+            "guardiansEnabled":true
+        }
+    ]
+}

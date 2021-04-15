@@ -1,0 +1,28 @@
+{
+    "sections":[
+        {
+            "id": 44,
+            "name": "44",
+            "sis_section_id": "s34643",
+            "sis_import_id": 47,
+            "course_id": "NET2239",
+            "sis_course_id": "7",
+            "start_at": "2012-06-01T00:00:00-06:00",
+            "end_at": null,
+            "restrict_enrollments_to_section_dates": null,
+            "nonxlist_course_id": null
+        },
+        {
+            "id": 40,
+            "name": "40",
+            "sis_section_id": "s34643",
+            "sis_import_id": 47,
+            "course_id": "CYS2240",
+            "sis_course_id": "7",
+            "start_at": "2012-06-01T00:00:00-06:00",
+            "end_at": null,
+            "restrict_enrollments_to_section_dates": null,
+            "nonxlist_course_id": null
+        }
+    ]
+}

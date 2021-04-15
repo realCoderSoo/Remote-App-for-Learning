@@ -1,0 +1,60 @@
+@import "src/shared/app-commons.scss";
+
+.center {
+  margin-top: 101px;
+  height: 100vh;
+  background: #ffe4c4;
+}
+
+h1 {
+  font-weight: $black;
+  font-size: $font-xlg;
+  padding-top: 5%;
+}
+
+h2 {
+  font-weight: $bold;
+  font-size: $font-lg;
+  padding-bottom: 2%;
+}
+
+canvas {
+  font-weight: $thin;
+}
+
+#lineChart {
+  width: 100% !important;
+  height: 40% !important;
+  max-width: 900px;
+  max-height: 507px;
+  float: left;
+}
+
+#barChart {
+  width: 100% !important;
+  height: 39% !important;
+}
+
+#circle {
+  margin-left: 93px;
+}
+
+:host ::ng-deep .card {
+  border-radius: 25px;
+}
+
+.card-stack {
+  margin-top: 118px;
+}
+
+.cardTop {
+  width: 80%;
+  margin-left: 9%;
+}
+
+.chartCard {
+  width: 80%;
+  margin-left: 8.5%;
+  margin-top: 71px;
+  max-width: 1665px;
+}

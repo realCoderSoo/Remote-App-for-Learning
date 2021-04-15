@@ -1,0 +1,31 @@
+{
+  "Course.SchemaElement": [
+    {
+      "type": {
+        "id": "01",
+        "code": "01",
+        "name": "org1"
+      },
+      "isNotAllowed": false,
+      "isRequired": true
+    },
+    {
+      "type": {
+        "id": "02",
+        "code": "02",
+        "name": "org2"
+      },
+      "isNotAllowed": true,
+      "isRequired": true
+    },
+    {
+      "type": {
+        "id": "03",
+        "code": "03",
+        "name": "org3"
+      },
+      "isNotAllowed": false,
+      "isRequired": true
+    }
+  ]
+}
